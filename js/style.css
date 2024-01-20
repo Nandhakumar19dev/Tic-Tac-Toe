@@ -1,0 +1,43 @@
+.wrapper{
+  margin: 200px 30%; 
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:17%;
+/*   margin: 200px 30%; */
+  gap: 3px;
+  border: 10px solid #a35906;
+}
+
+.info-container{
+  display: grid;
+/*   margin-left: 30%; */
+  grid-template-columns: repeat(1, 1fr);
+  width: 17%;
+  padding: 0;
+  border: 10px solid #a35906;
+}
+
+button{
+  height: 50px;
+  background-color:#1d3b3a;// #6495ED;
+  border-radius: 2px;
+  outline: 2px solid #b46f1d;
+  outline-offset: 1.5px;
+  font-size: 20px;
+}
+
+label{
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #0275d8;
+  border-radius: 6px;
+  
+}
+
+.container>button:hover{
+  background-color: rgb(100, 149, 237, 0.6);
+}
